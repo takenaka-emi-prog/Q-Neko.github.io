@@ -108,9 +108,9 @@ export const ja: Translations = {
     copyright: "© 2026 Q-Neko Consortium · Nippon-Europe Quantum Koraborēshon",
     coordinatedBy: "Coordinated by CSC - IT Center for Science, Finland",
     fundingStatement:
-      "The project is supported by the EuroHPC Joint Undertaking (Grant Agreement No. 101241875.) and its members including top-up funding by the Government of Japan.",
+      "The project is supported by Horizon Europe, the EuroHPC Joint Undertaking (EuroHPC JU, Grant Agreement No. 101241875), and Japan’s Strategic Innovation Promotion Program (SIP).",
     disclaimer:
-      "本事業は欧州連合（EU）からの共同資金提供を受けて実施されています。なお、本資料に記載されている見解および意見は、プロジェクト参加機関に帰属するものであり、欧州連合またはEuroHPC JUの見解を反映するものではありません。欧州連合および資金提供機関は、本資料の内容について一切の責任を負いません。",
+      "本事業は、欧州のHorizon EuropeおよびEuroHPC Joint Undertaking（EuroHPC JU）、ならびに日本の戦略的イノベーション創造プログラム（SIP）の支援を受けて実施されています。",
     developedBy: "Developed By Q-Neko",
     developedCopyright: "Copyright © Q-Neko 2026",
     logoAlt: "Q-Neko",
@@ -173,7 +173,7 @@ export const ja: Translations = {
       {
         id: "contact-person",
         heading: "登録関連のお問い合わせ先",
-        body: ["本プライバシーポリシーまたは当社のデータ処理に関するご質問がございましたら、当社のデータ保護責任者までお問い合わせください。"],
+        body: ["本プライバシーポリシーまたはデータ処理に関するご質問がございましたら、データ保護責任者までお問い合わせください。"],
         items: [
           ["データ資産所有者: ", { text: "comms.qneko(at)postit.csc.fi", href: "mailto:comms.qneko@postit.csc.fi" }],
           ["データ保護責任者: ", { text: "privacy(at)csc.fi", href: "mailto:privacy@csc.fi" }],
@@ -181,52 +181,52 @@ export const ja: Translations = {
       },
       {
         id: "legal-basis",
-        heading: "処理の法的根拠",
+        heading: "個人データ処理の法的根拠",
         body: [
-          "個人データの処理対象となるデータ主体は、ニュースレターの購読者および受信者です。",
-          "ニュースレターへの登録時に、ご本人の同意を基に個人データの処理が行われます。",
-          "いつでも同意を撤回することや、メーリングリストから退会することが可能です。",
+          "本ニュースレターは、ご登録いただいた方へ配信しています。",
+          "個人情報は、ご本人の同意に基づいて取り扱います。",
+          "ニュースレターの配信停止はいつでもお手続きいただけます。",
         ],
       },
       {
         id: "purposes",
-        heading: "個人データの処理の目的",
-        body: ["個人データを処理する目的は、プロジェクトに関する情報発信を行うこと、およびQ-Nekoプロジェクトの最新トピックに関する情報を共有することです。"],
+        heading: "個人データの利用目的",
+        body: ["本プロジェクトの活動情報や最新トピックをお届けするため、個人データを利用します。"],
       },
       {
         id: "automated-decision-making",
-        heading: "自動意思決定とプロファイリング",
-        body: ["データは、プロファイリングや自動化された意思決定には使用されません。"],
+        heading: "自動意思決定およびプロファイリング",
+        body: ["当プロジェクトでは、個人データを用いた自動意思決定またはプロファイリングは行いません。"],
       },
       {
         id: "processed-data",
-        heading: "処理済みデータ",
-        body: ["次の個人データが処理されています:"],
+        heading: "処理する個人データ",
+        body: ["当プロジェクトでは、ニュースレターの登録情報および閲覧状況に関する情報を処理します。:"],
         items: [
           "メールアドレス",
           "同意",
           "お名前",
-          "購読者のニュースレター閲覧動向",
+          "ニュースレターの閲覧・配信履歴",
         ],
       },
       {
         id: "data-source",
         heading: "個人データの取得元",
-        body: ["ニュースレターにご登録いただく際、当社はお客様から直接情報を収集いたします。"],
+        body: ["個人データは、ニュースレター登録時にご本人から直接取得します。"],
       },
       {
         id: "data-sharing",
         heading: "データの共有および転送",
         body: [
           "当社は、法律で定められている範囲内、およびサービスの提供や契約の履行に必要な範囲において、お客様の個人データを提供することが可能です。",
-          "CSCは、ニュースレターの購読管理および配信のために、Liana Technologies Oyが提供するサービスを利用しています。また、登録者の個人データへのアクセスは、職務内容に応じて指定されたCSCの従業員に限定されています。",
-          "このような場合、サービス提供者は、CSCの指示に従い、かつCSCに代わってのみ個人データを処理します。CSCは、データ保護法で定められた要件に従い、個人データの処理について合意が得られていることを確認しています。",
+          "CSCは、ニュースレターの配信および購読管理のため、外部サービス（Liana Technologies Oyが提供するサービス）を利用しています。個人データへのアクセスは、業務上必要な担当者に限定しています。",
+          "委託先は、CSCの指示の指示に基づき、必要な範囲でのみ個人データを処理します。また、適用されるデータ保護法令に従い、適切な管理を行います。",
         ],
       },
       {
         id: "data-transfers-outside-eu",
-        heading: "EU／EEA域外へのデータ転送",
-        body: ["個人データは、欧州連合（EU）または欧州経済領域（EEA）の外へ転送されることはありません。"],
+        heading: "EU／EEA域外へのデータ提供",
+        body: ["個人データは、欧州連合（EU）または欧州経済領域（EEA）の外へ提されることはありません。"],
       },
       {
         id: "data-retention",
@@ -239,7 +239,7 @@ export const ja: Translations = {
       },
       {
         id: "data-protection",
-        heading: "お客様のデータはどのように保護されていますか？",
+        heading: "委託先における個人データの取扱い",
         body: [
           "CSCに代わって個人データを処理する権限を有する者のみが、職務内容に従ってデータファイルにアクセスすることができます。個人データへのアクセスは制限されており、ユーザーはユーザー名とパスワードによって認証されます。",
           "外部委託先については、CSCは一般データ保護規則（GDPR）に基づき、必要なデータ保護義務について取り決めています。",
@@ -247,7 +247,7 @@ export const ja: Translations = {
       },
       {
         id: "your-rights",
-        heading: "お客様の権利",
+        heading: "登録者の権利",
         body: [
           "データ主体は、一般データ保護規則（GDPR）に基づき、とりわけ、自身のデータを閲覧する権利、個人データにアクセスする権利、および自身に関する不正確なデータの訂正を請求する権利を有しています。データの閲覧またはアクセスに関する権利の行使は、リソースの範囲内で遅滞なく行われますが、いかなる場合も、遅くとも一般データ保護規則で定められた期限内に行われます。情報の提供に先立ち、データ主体の身元確認が行われます。要請があった場合、情報は書面にて提供されます。",
           "管理者は、自ら、またはデータ主体の請求に基づき、不正確または不十分な情報を訂正または補完すること。管理者は、法律または契約によりデータの保持が認められているか、または義務付けられている場合を除き、自ら、またはデータ主体の請求に基づき、不要または古くなったデータを削除すること。",
@@ -393,7 +393,7 @@ export const ja: Translations = {
     media: {
       sectionLabel: "メディアコーナー",
       heading: "メディアコーナー",
-      intro: "Q-NekoメディアコーナーではQ-Nekoプロジェクトに関する広報資料、プレスリリース、メディア掲載をご覧いただけます。",
+      intro: "こちらでは、プロジェクトに関する広報資料、プレスリリース、メディア掲載をご覧いただけます。",
       pressLabel: "報道関係のお問い合わせ",
       pressEmail: "comms.qneko@postit.csc.fi",
       tabs: {
@@ -401,13 +401,13 @@ export const ja: Translations = {
         pressReleases: "プレスリリース",
         clipping: "メディア掲載",
       },
-      comingSoonCommunicationMaterials: "広報資料は公開され次第こちらに掲載。",
-      comingSoonPressReleases: "プレスリリースは公開され次第こちらに掲載。",
-      comingSoonClipping: "メディア掲載は公開され次第こちらに掲載。",
+      comingSoonCommunicationMaterials: "広報資料は、順次こちらに掲載します。",
+      comingSoonPressReleases: "プレスリリースは順次こちらに掲載します。",
+      comingSoonClipping: "メディア掲載は順次こちらに掲載します。",
       readArticle: "記事を読む",
       logos: {
         heading: "ロゴ・ブランド資料",
-        intro: "Q-Nekoのロゴをカラー版、モノクロ版、シンボルのみの各バージョンでダウンロードできます。ご使用の際はロゴの比率と配色を変更しないでください。",
+        intro: "Q-Nekoのロゴは、カラー版・モノクロ版・シンボルのみのバージョンをダウンロードいただけます。ご使用の際は、縦横比や配色を変更しないようお願いいたします。ご使用にあたり許可申請は不要です。公序良俗に反しない範囲でご自由にお使いください。",
         downloadAll: "すべてのロゴをダウンロード（ZIP）",
         download: "ダウンロード",
       },
@@ -430,7 +430,7 @@ export const ja: Translations = {
     contact: {
       sectionLabel: "お問い合わせ",
       heading: "お問い合わせ",
-      intro: "Q-Nekoプロジェクトに関する一般的なお問い合わせ、パートナーシップ、または協業の機会については、プロジェクト事務局までご連絡ください。",
+      intro: "Q-Nekoに関するご質問や、共同研究・協業に関するご相談は、お気軽にプロジェクト事務局までお問い合わせください。",
       coordinatorLabel: "プロジェクトコーディネーター",
       coordinator: "CSC – IT Center for Science, Finland",
       emailLabel: "メール",
@@ -460,9 +460,9 @@ export const ja: Translations = {
     events: {
       sectionLabel: "イベント",
       heading: "ワークショップ・会議",
-      intro: "Q-Nekoは欧州と日本の量子コミュニティ間の連携を促進するため、ワークショップ、会議、コミュニティイベントを開催しています。",
-      comingSoonUpcoming: "今後のイベントはここに掲載。",
-      comingSoonPast: "過去のイベントはここに表示されています。",
+      intro: "Q-Nekoでは、欧州と日本の量子コミュニティの連携を深めるため、ワークショップやカンファレンスなど、コミュニティイベントを開催しています。",
+      comingSoonUpcoming: "最新のイベント情報はこちらをご確認ください。",
+      comingSoonPast: "開催済のイベントについては、こちらをご覧ください。",
       tabs: {
         upcoming: "近日開催",
         past: "過去",
